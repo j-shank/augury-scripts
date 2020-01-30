@@ -50,8 +50,7 @@ payload = {
 
 headers = {
     'Content-Type': "application/json",
-    #API Auth with valid_api_key
-    #Example 'Authorization': "Token JSHANK-GITHUB-SCRIPTS-REPLACE-THIS-WITH-YOUR-TOKEN"
+    'Authorization': "Token JSHANK-GITHUB-SCRIPTS-REPLACE-THIS-WITH-YOUR-TOKEN"
     }
 
 response = requests.request("POST", url, data=json.dumps(payload), headers=headers)
